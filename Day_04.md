@@ -83,3 +83,4 @@ sudo docker run -it --rm --runtime nvidia --network host nvcr.io/nvidia/l4t-ml:r
 # /path/in/container : 컨데이너 경로
 sudo docker run -it --rm --runtime nvidia --network host -v /path/in/host:/path/in/container nvcr.io/nvidia/l4t-ml:r34.1.0-py3
 ```
+[출처](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/l4t-ml)
